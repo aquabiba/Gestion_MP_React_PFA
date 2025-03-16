@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/auth/login"; // Adjust this to match your backend URL
+const API_URL = "https://localhost:8443/auth/login"; // Adjust this to match your backend URL
 
 interface LoginResponse {
   token: string;
